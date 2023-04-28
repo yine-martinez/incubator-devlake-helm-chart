@@ -17,7 +17,7 @@
 
 # replica count for dev
 replicaCount: 1
-imageTag: v0.16.0-beta17
+imageTag: latest
 
 mysql:
   # if use external mysql server, please set true
@@ -133,7 +133,7 @@ grafana:
 
 lake:
   image:
-    repository: apache/devlake
+    repository: gcr.io/playgroundtwchile/incubator-devlake-devlake
     pullPolicy: Always
   # storage for config
   storage:
@@ -164,7 +164,7 @@ lake:
 
 ui:
   image:
-    repository: apache/devlake-config-ui
+    repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
     pullPolicy: Always
 
   resources: {}

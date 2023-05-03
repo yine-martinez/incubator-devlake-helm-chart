@@ -24,9 +24,9 @@ sources:
     - https://github.com/apache/incubator-devlake-website
 keywords:
     - devlake
+    - testing
 
 type: application
-
 
 # Chart version
 version: latest

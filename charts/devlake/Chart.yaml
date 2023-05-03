@@ -29,7 +29,7 @@ keywords:
 type: application
 
 # Chart version
-version: latest
+version: 0.0.1
 
 # devlake version
-appVersion: vlatest
+appVersion: v0.0.1

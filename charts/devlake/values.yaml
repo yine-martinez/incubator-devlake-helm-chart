@@ -50,7 +50,8 @@ mysql:
 
   # image for mysql
   image:
-    repository: mysql
+    registry: gcr.io
+    repository: playgroundtwchile/mysql
     tag: 8
     pullPolicy: IfNotPresent
 
@@ -112,7 +113,9 @@ mysql:
 grafana:
   # image for grafana
   image:
-    repository: apache/devlake-dashboard
+    registry: gcr.io
+    repository: playgroundtwchile/incubator-devlake-grafana
+    tag: v1
     pullPolicy: Always
 
   # If true, the default Nginx configuration will support a permanent redirect
@@ -133,7 +136,9 @@ grafana:
 
 lake:
   image:
-    repository: gcr.io/playgroundtwchile/incubator-devlake-devlake
+    registry: gcr.io
+    repository: playgroundtwchile/devlake
+    tag: v1
     pullPolicy: Always
   # storage for config
   storage:
@@ -164,7 +169,10 @@ lake:
 
 ui:
   image:
-    repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
+    registry: gcr.io
+    repository: playgroundtwchile/devlake-config-ui
+    tag: v1
+    # repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
     pullPolicy: Always
 
   resources: {}

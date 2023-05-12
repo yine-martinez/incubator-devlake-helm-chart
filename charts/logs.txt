@@ -1,0 +1,850 @@
+---
+insertId: opap2je1wg9e
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+    principalSubject: user:alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: google-cloud-sdk gcloud/430.0.0 command/gcloud.compute.instances.describe
+      invocation-id/8f8b9ca4fcde4517a0b09846a994531d environment/None environment-version/None
+      client-os/MACOSX client-os-ver/22.4.0 client-pltf-arch/x86_64 interactive/True
+      from-script/False python/3.7.9 term/xterm-256color (Macintosh; Intel Mac OS
+      X 22.4.0),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T19:02:44.394990Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T19:02:45.326151215Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T19:02:44.330684Z'
+---
+insertId: -xkbuv0e74psa
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+    principalSubject: user:alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T19:00:46.303943Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T19:00:47.183468845Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T19:00:46.237485Z'
+---
+insertId: mhn4jjdzlpy
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: beta.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:59:56.073492Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:59:56.480363234Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:59:56.029118Z'
+---
+insertId: -s0s5kre6gmci
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:59:55.856472Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:59:56.591202092Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:59:55.794008Z'
+---
+insertId: ildgdze3t5js
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:59:55.844149Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:59:56.279666842Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:59:55.783039Z'
+---
+insertId: -59gzgqe42ur2
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:59:55.830207Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:59:56.133267046Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:59:55.779015Z'
+---
+insertId: b3km6re71zmc
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+    principalSubject: user:alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:58:10.024196Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:58:10.469817349Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:58:09.961376Z'
+---
+insertId: 78504pe4z0bi
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: jessica.simplicio@thoughtworks.com
+    principalSubject: user:jessica.simplicio@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 2804:14c:e8:8836:742e:cc82:abea:7c4
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:55:39.366093Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:55:39.934595494Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:55:39.316004Z'
+---
+insertId: -tekd2oe4eb5c
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+    principalSubject: user:alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:54:57.095272Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:54:57.355811786Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:54:57.043324Z'
+---
+insertId: -4z7o1ue2kz5m
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: jessica.simplicio@thoughtworks.com
+    principalSubject: user:jessica.simplicio@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 2804:14c:e8:8836:742e:cc82:abea:7c4
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:52:11.516223Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:52:12.174184051Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:52:11.465611Z'
+---
+insertId: 327spce5tw5g
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: alejandro.hidalgo@thoughtworks.com
+    principalSubject: user:alejandro.hidalgo@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 186.107.231.60
+    callerSuppliedUserAgent: google-cloud-sdk gcloud/430.0.0 command/gcloud.compute.instances.describe
+      invocation-id/b6d9c78fe67643008f6cee73e9ad91e9 environment/None environment-version/None
+      client-os/MACOSX client-os-ver/22.4.0 client-pltf-arch/x86_64 interactive/True
+      from-script/False python/3.7.9 term/xterm-256color (Macintosh; Intel Mac OS
+      X 22.4.0),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:51:25.566497Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:51:25.582346698Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:51:25.448368Z'
+---
+insertId: -eyve35e5b4v0
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:46:53.716880Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:46:54.386249599Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:46:53.664633Z'
+---
+insertId: wqwrmae5lzhy
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:46:53.668576Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:46:54.168231806Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:46:53.620823Z'
+---
+insertId: -pik7a4e5jn5q
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: beta.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:46:53.697415Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:46:54.215718377Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:46:53.618096Z'
+---
+insertId: -dl59u3e365um
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.listReferrers
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.listReferrers
+  request:
+    '@type': type.googleapis.com/compute.instances.listReferrers
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36
+      (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36,gzip(gfe),gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:46:53.664863Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:46:54.395040116Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:46:53.615858Z'
+---
+insertId: b3z5lpe1h55m
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Fdata_access
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+    principalSubject: user:igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.get
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.get
+  request:
+    '@type': type.googleapis.com/compute.instances.get
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: google-api-go-client/0.5 Terraform/1.4.5 (+https://www.terraform.io)
+      Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.57.0,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:45:31.254532Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:45:31.730850920Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: INFO
+timestamp: '2023-05-12T18:45:31.203075Z'
+---
+insertId: '1'
+jsonPayload:
+  '@type': type.googleapis.com/cloud_integrity.IntegrityEvent
+  bootCounter: '1'
+  earlyBootReportEvent:
+    actualMeasurements:
+    - hashAlgo: SHA1
+      pcrNum: PCR_0
+      value: 0KUbR/mg3+8bwW0xjQtbxWh/1gI=
+    - hashAlgo: SHA1
+      pcrNum: PCR_1
+      value: KtcGVWNIdo9pYPgCGcLsoGrtI6Q=
+    - hashAlgo: SHA1
+      pcrNum: PCR_2
+      value: sqg7Dr8vg3Qpmlsr38MeqVWtcjY=
+    - hashAlgo: SHA1
+      pcrNum: PCR_3
+      value: sqg7Dr8vg3Qpmlsr38MeqVWtcjY=
+    - hashAlgo: SHA1
+      pcrNum: PCR_4
+      value: 5antEyoDeoobGBVo86ipQDl73Hc=
+    - hashAlgo: SHA1
+      pcrNum: PCR_5
+      value: EinxCQ0avWvZONIuzsifc3uxAJg=
+    - hashAlgo: SHA1
+      pcrNum: PCR_6
+      value: sqg7Dr8vg3Qpmlsr38MeqVWtcjY=
+    - hashAlgo: SHA1
+      pcrNum: PCR_7
+      value: jwk4ZGvqD/g7cbCA762EALidNFw=
+    policyEvaluationPassed: true
+    policyMeasurements:
+    - hashAlgo: SHA1
+      pcrNum: PCR_0
+      value: 0KUbR/mg3+8bwW0xjQtbxWh/1gI=
+    - hashAlgo: SHA1
+      pcrNum: PCR_7
+      value: jwk4ZGvqD/g7cbCA762EALidNFw=
+logName: projects/playgroundtwchile/logs/compute.googleapis.com%2Fshielded_vm_integrity
+receiveTimestamp: '2023-05-12T18:45:27.027646196Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: NOTICE
+timestamp: '2023-05-12T18:45:26.264189566Z'
+---
+insertId: m7oqaldv4y2
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Factivity
+operation:
+  id: operation-1683917117010-5fb8381973293-5f2c429c-ce6806a2
+  last: true
+  producer: compute.googleapis.com
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+    principalSubject: user:igor.cifuentes@thoughtworks.com
+  methodName: v1.compute.instances.insert
+  request:
+    '@type': type.googleapis.com/compute.instances.insert
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: google-api-go-client/0.5 Terraform/1.4.5 (+https://www.terraform.io)
+      Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.57.0,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes: {}
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:45:26.893778789Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: NOTICE
+timestamp: '2023-05-12T18:45:26.006752Z'
+---
+insertId: '0'
+jsonPayload:
+  '@type': type.googleapis.com/cloud_integrity.IntegrityEvent
+  bootCounter: '1'
+  startupEvent: {}
+logName: projects/playgroundtwchile/logs/compute.googleapis.com%2Fshielded_vm_integrity
+receiveTimestamp: '2023-05-12T18:45:27.027646196Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: NOTICE
+timestamp: '2023-05-12T18:45:25.017341376Z'
+---
+insertId: 6e1sb4e1hc16
+logName: projects/playgroundtwchile/logs/cloudaudit.googleapis.com%2Factivity
+operation:
+  first: true
+  id: operation-1683917117010-5fb8381973293-5f2c429c-ce6806a2
+  producer: compute.googleapis.com
+protoPayload:
+  '@type': type.googleapis.com/google.cloud.audit.AuditLog
+  authenticationInfo:
+    principalEmail: igor.cifuentes@thoughtworks.com
+    principalSubject: user:igor.cifuentes@thoughtworks.com
+  authorizationInfo:
+  - granted: true
+    permission: compute.instances.create
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  - granted: true
+    permission: compute.instanceTemplates.useReadOnly
+    resourceAttributes:
+      name: projects/playgroundtwchile/global/instanceTemplates/simple-vm
+      service: compute
+      type: compute.instanceTemplates
+  - granted: true
+    permission: compute.disks.use
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/disks/devlake-test
+      service: compute
+      type: compute.disks
+  - granted: true
+    permission: compute.subnetworks.use
+    resourceAttributes:
+      name: projects/playgroundtwchile/regions/us-central1/subnetworks/subnetwork-public-test
+      service: compute
+      type: compute.subnetworks
+  - granted: true
+    permission: compute.subnetworks.useExternalIp
+    resourceAttributes:
+      name: projects/playgroundtwchile/regions/us-central1/subnetworks/subnetwork-public-test
+      service: compute
+      type: compute.subnetworks
+  - granted: true
+    permission: compute.instances.setMetadata
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  - granted: true
+    permission: compute.instances.setTags
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  - granted: true
+    permission: compute.instances.setLabels
+    resourceAttributes:
+      name: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+      service: compute
+      type: compute.instances
+  methodName: v1.compute.instances.insert
+  request:
+    '@type': type.googleapis.com/compute.instances.insert
+    disks:
+    - autoDelete: true
+      boot: true
+      deviceName: persistent-disk-0
+      interface: SCSI
+      mode: READ_WRITE
+      source: projects/playgroundtwchile/zones/us-central1-c/disks/devlake-test
+      type: PERSISTENT
+    name: metrics-server-3
+    scheduling:
+      automaticRestart: true
+      onHostMaintenance: MIGRATE
+      provisioningModel: STANDARD
+    sourceInstanceTemplate: projects/playgroundtwchile/global/instanceTemplates/simple-vm
+  requestMetadata:
+    callerIp: 181.160.82.56
+    callerSuppliedUserAgent: google-api-go-client/0.5 Terraform/1.4.5 (+https://www.terraform.io)
+      Terraform-Plugin-SDK/2.10.1 terraform-provider-google/4.57.0,gzip(gfe)
+    destinationAttributes: {}
+    requestAttributes:
+      auth: {}
+      time: '2023-05-12T18:45:18.489735Z'
+  resourceLocation:
+    currentLocations:
+    - us-central1-c
+  resourceName: projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+  response:
+    '@type': type.googleapis.com/operation
+    id: '7986892290238134225'
+    insertTime: '2023-05-12T11:45:18.420-07:00'
+    name: operation-1683917117010-5fb8381973293-5f2c429c-ce6806a2
+    operationType: insert
+    progress: '0'
+    selfLink: https://www.googleapis.com/compute/v1/projects/playgroundtwchile/zones/us-central1-c/operations/operation-1683917117010-5fb8381973293-5f2c429c-ce6806a2
+    selfLinkWithId: https://www.googleapis.com/compute/v1/projects/playgroundtwchile/zones/us-central1-c/operations/7986892290238134225
+    startTime: '2023-05-12T11:45:18.421-07:00'
+    status: RUNNING
+    targetId: '4380955761332926418'
+    targetLink: https://www.googleapis.com/compute/v1/projects/playgroundtwchile/zones/us-central1-c/instances/metrics-server-3
+    user: igor.cifuentes@thoughtworks.com
+    zone: https://www.googleapis.com/compute/v1/projects/playgroundtwchile/zones/us-central1-c
+  serviceName: compute.googleapis.com
+receiveTimestamp: '2023-05-12T18:45:18.812297309Z'
+resource:
+  labels:
+    instance_id: '4380955761332926418'
+    project_id: playgroundtwchile
+    zone: us-central1-c
+  type: gce_instance
+severity: NOTICE
+timestamp: '2023-05-12T18:45:17.042125Z'

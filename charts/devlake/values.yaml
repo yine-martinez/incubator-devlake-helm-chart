@@ -50,8 +50,7 @@ mysql:
 
   # image for mysql
   image:
-    registry: gcr.io
-    repository: playgroundtwchile/mysql
+    repository: gcr.io/playgroundtwchile/mysql
     tag: 8
     pullPolicy: IfNotPresent
 
@@ -113,8 +112,7 @@ mysql:
 grafana:
   # image for grafana
   image:
-    registry: gcr.io
-    repository: playgroundtwchile/incubator-devlake-grafana
+    repository: gcr.io/playgroundtwchile/incubator-devlake-grafana
     tag: latest
     pullPolicy: Always
 
@@ -136,8 +134,7 @@ grafana:
 
 lake:
   image:
-    registry: gcr.io
-    repository: playgroundtwchile/devlake
+    repository: gcr.io/playgroundtwchile/devlake
     tag: v2
     pullPolicy: Always
   # storage for config
@@ -169,8 +166,7 @@ lake:
 
 ui:
   image:
-    registry: gcr.io
-    repository: playgroundtwchile/devlake-config-ui
+    repository: gcr.io/playgroundtwchile/devlake-config-ui
     tag: v2
     # repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
     pullPolicy: Always

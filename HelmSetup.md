@@ -13,7 +13,7 @@ sidebar_position: 2
 
 ## Quick Start
 
-#### You can also check https://github.com/apache/incubator-devlake-helm-chart to make contribution
+#### You can also check https://github.com/jessimplicio/incubator-devlake-helm-chart to make contribution
 
 ### Install
 
@@ -22,7 +22,7 @@ To install the chart with release name `devlake`:
 ```shell
 helm repo add devlake https://apache.github.io/incubator-devlake-helm-chart
 helm repo update
-helm install devlake devlake/devlake --version=0.16.0-beta17
+helm install devlake devlake/devlake --version=v5
 ```
 
 And visit your devlake from the node port (32001 by default).
@@ -47,7 +47,7 @@ grafana by url `http://YOUR-NODE-IP:30091`
 
 ```shell
 helm repo update
-helm upgrade --install devlake devlake/devlake --version=0.16.0-beta17
+helm upgrade --install devlake devlake/devlake --version=v5
 ```
 
 ### Uninstall
@@ -128,18 +128,18 @@ Some useful parameters for the chart, you could also check them in values.yaml
 | mysql.image.repository            | repository for mysql's image                             | mysql                      |
 | mysql.image.tag                   | image tag for mysql's image                              | 8                          |
 | mysql.image.pullPolicy            | pullPolicy for mysql's image                             | IfNotPresent               |
-| grafana.image.repository          | repository for grafana's image                           | apache/devlake-dashboard   |
+| grafana.image.repository          | repository for grafana's image                           | jessimplicio/devlake-dashboard   |
 | grafana.image.pullPolicy          | pullPolicy for grafana's image                           | Always                     |
 | grafana.useExternal               | If use external grafana server                           | false                      |
 | grafana.externalUrl               | external grafana server if use external                  | ""                         |
 | lake.storage.class                | storage class for lake's volume                          | ""                         |
 | lake.storage.size                 | volume size for lake's data                              | 100Mi                      |
-| lake.image.repository             | repository for lake's image                              | apache/devlake             |
+| lake.image.repository             | repository for lake's image                              | jessimplicio/devlake             |
 | lake.image.pullPolicy             | pullPolicy for lake's image                              | Always                     |
 | lake.loggingDir                   | log dir for the lake server                              | /app/logs                  |
 | lake.loggingLevel                 | log level for the lake server                            | info                       |
 | lake.dotenv                       | initial configurations for injecting to lake's .env      | see Values.yaml            |
-| ui.image.repository               | repository for ui's image                                | apache/devlake-config-ui   |
+| ui.image.repository               | repository for ui's image                                | jessimplicio/devlake-config-ui   |
 | ui.image.pullPolicy               | pullPolicy for ui's image                                | Always                     |
 | ui.basicAuth.enabled              | If the basic auth in ui is enabled                       | false                      |
 | ui.basicAuth.user                 | The user name for the basic auth                         | "admin"                    |
@@ -202,4 +202,4 @@ Some useful parameters for the chart, you could also check them in values.yaml
 
 ## Troubleshooting
 
-If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/apache/incubator-devlake/issues)
+If you run into any problem, please check the [Troubleshooting](/Troubleshooting/Installation.md) or [create an issue](https://github.com/jessimplicio/incubator-devlake/issues)

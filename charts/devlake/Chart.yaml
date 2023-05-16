@@ -24,7 +24,7 @@ sources:
     - https://github.com/jessimplicio/incubator-devlake-website
 keywords:
     - devlake
-    - testing
+# - testing # - Original version does not run tests
 
 type: application
 

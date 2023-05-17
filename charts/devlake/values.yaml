@@ -115,7 +115,7 @@ grafana:
     repository: gcr.io/playgroundtwchile/incubator-devlake-grafana
     pullPolicy: Always
     # defaults to imageTag; if set, grafana.image.tag will override imageTag
-    # tag: 
+    tag: latest
 
   # If true, the default Nginx configuration will support a permanent redirect
   # in the tool's menu. Should you use a different ingress controller, you'll need

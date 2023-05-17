@@ -112,8 +112,8 @@ mysql:
 grafana:
   # image for grafana
   image:
-    repository: gcr.io/playgroundtwchile/incubator-devlake-grafana
-    tag: latest
+    repository: gcr.io/playgroundtwchile/incubator-devlake-grafana:latest
+    # tag: latest
     pullPolicy: Always
 
   # If true, the default Nginx configuration will support a permanent redirect
@@ -134,9 +134,10 @@ grafana:
 
 lake:
   image:
-    repository: gcr.io/playgroundtwchile/devlake
-    tag: v2
-    pullPolicy: Always
+    repository: gcr.io/playgroundtwchile/devlake:v2
+    # tag: v2
+    pullPolicy: IfNotPresent
+    # pullPolicy: Always
   # storage for config
   storage:
     # the storage class for pv, leave empty will using default
@@ -166,11 +167,11 @@ lake:
 
 ui:
   image:
-    repository: gcr.io/playgroundtwchile/devlake-config-ui
-    tag: v2
+    repository: gcr.io/playgroundtwchile/devlake-config-ui:v2
+    pullPolicy: IfNotPresent
+    # tag: v2
     # repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
-    pullPolicy: Always
-
+    # pullPolicy: Always
   resources: {}
 
   nodeSelector: {}

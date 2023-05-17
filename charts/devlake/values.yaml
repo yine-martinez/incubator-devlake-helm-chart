@@ -17,7 +17,7 @@
 
 # replica count for dev
 replicaCount: 1
-# imageTag: v1
+imageTag: v1
 
 mysql:
   # if use external mysql server, please set true
@@ -113,9 +113,9 @@ grafana:
   # image for grafana
   image:
     repository: gcr.io/playgroundtwchile/incubator-devlake-grafana
-    imageTag: latest
-    # tag: latest
     pullPolicy: Always
+    # defaults to imageTag; if set, grafana.image.tag will override imageTag
+    # tag: 
 
   # If true, the default Nginx configuration will support a permanent redirect
   # in the tool's menu. Should you use a different ingress controller, you'll need
@@ -136,10 +136,9 @@ grafana:
 lake:
   image:
     repository: gcr.io/playgroundtwchile/devlake
-    imageTag: v2
-    # tag: v2
-    pullPolicy: IfNotPresent
-    # pullPolicy: Always
+    pullPolicy: Always
+    # defaults to imageTag; if set, lake.image.tag will override imageTag
+
   # storage for config
   storage:
     # the storage class for pv, leave empty will using default
@@ -170,11 +169,10 @@ lake:
 ui:
   image:
     repository: gcr.io/playgroundtwchile/devlake-config-ui
-    imageTag: v1
-    # tag: v1
     pullPolicy: IfNotPresent
-    # repository: gcr.io/playgroundtwchile/incubator-devlake-config-ui
-    # pullPolicy: Always
+    # defaults to imageTag; if set, ui.image.tag will override imageTag
+    # tag: 
+    
   resources: {}
 
   nodeSelector: {}

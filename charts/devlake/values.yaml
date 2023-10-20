@@ -50,7 +50,7 @@ mysql:
 
   # image for mysql
   image:
-    repository: gcr.io/playgroundtwchile/mysql
+    repository: us-central1-docker.pkg.dev/playgroundtwchile/devlake/mysql
     tag: 8
     pullPolicy: IfNotPresent
 
@@ -112,7 +112,7 @@ mysql:
 grafana:
   # image for grafana
   image:
-    repository: gcr.io/playgroundtwchile/incubator-devlake-grafana
+    repository: us-central1-docker.pkg.dev/playgroundtwchile/devlake/incubator-devlake-grafana
     pullPolicy: Always
     # defaults to imageTag; if set, grafana.image.tag will override imageTag
     tag: latest
@@ -135,7 +135,7 @@ grafana:
 
 lake:
   image:
-    repository: gcr.io/playgroundtwchile/devlake
+    repository: us-central1-docker.pkg.dev/playgroundtwchile/devlake/incubator-devlake-devlake
     pullPolicy: Always
     # defaults to imageTag; if set, lake.image.tag will override imageTag
 
@@ -168,7 +168,7 @@ lake:
 
 ui:
   image:
-    repository: gcr.io/playgroundtwchile/devlake-config-ui
+    repository: us-central1-docker.pkg.dev/playgroundtwchile/devlake/incubator-devlake-config-ui
     pullPolicy: IfNotPresent
     # defaults to imageTag; if set, ui.image.tag will override imageTag
     # tag: 
